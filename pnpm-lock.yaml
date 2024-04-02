@@ -11,6 +11,9 @@ dependencies:
   '@cc-heart/utils-client':
     specifier: ^0.0.16
     version: 0.0.16
+  '@cc-heart/vue-utils':
+    specifier: ^0.0.1
+    version: 0.0.1
   '@codemirror/lang-css':
     specifier: ^6.2.1
     version: 6.2.1(@codemirror/view@6.16.0)
@@ -427,6 +430,10 @@ packages:
 
   /@cc-heart/utils@3.1.0:
     resolution: {integrity: sha512-uBoGy4dzakFnmbQ5/5TMZcjDsMlC+dWghMO77QZliJZzlm+KyOyZOl2AUjvmw52qn4+alLddFmOSzDx+JobbyQ==}
+    dev: false
+
+  /@cc-heart/vue-utils@0.0.1:
+    resolution: {integrity: sha512-AFyAJ/CroFhHEKDtOIjug5ndJa/gCSkUe2ZvGpvuKDUS+4KJfpWWFbnOvrvklmwtlouOoEE8uCfmMpup6BNJlQ==, tarball: https://registry.npmjs.org/@cc-heart/vue-utils/-/vue-utils-0.0.1.tgz}
     dev: false
 
   /@codemirror/autocomplete@6.9.0(@codemirror/language@6.8.0)(@codemirror/state@6.2.1)(@codemirror/view@6.16.0)(@lezer/common@1.0.3):
@@ -1773,6 +1780,7 @@ packages:
 
   /bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: true
@@ -2780,6 +2788,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -3926,6 +3935,7 @@ packages:
 
   /nan@2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     dev: true
     optional: true
 

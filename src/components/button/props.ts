@@ -1,4 +1,5 @@
-import { buildProps } from '@/utils/props'
+import { buildProps } from '@cc-heart/vue-utils'
+
 export const buttonProps = buildProps({
   type: {
     type: String,
